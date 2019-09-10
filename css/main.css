@@ -1,0 +1,46 @@
+body {
+  background: #dcf5ff;
+  margin: 0;
+  height: 100vh;
+  display: -ms-grid;
+  display: grid;
+  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: sans-serif;
+}
+
+.container {
+  width: 30%;
+  background: white;
+  border-radius: 10px;
+}
+
+.container .inner {
+  background: #07daa5;
+  padding: 1em;
+  border-radius: 10px;
+  width: calc(100% - 2em);
+  -webkit-clip-path: inset(0% 0% 0% 100%);
+          clip-path: inset(0% 0% 0% 100%);
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+  cursor: pointer;
+}
+
+.container .inner h1 {
+  color: white;
+  margin: 0;
+}
+
+.container .inner p {
+  color: white;
+  font-size: .8rem;
+}
+
+.container:hover .inner {
+  -webkit-clip-path: inset(0% 50% 0% 0%);
+          clip-path: inset(0% 50% 0% 0%);
+}
+/*# sourceMappingURL=main.css.map */
